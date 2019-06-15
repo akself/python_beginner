@@ -31,3 +31,18 @@ count = 0
 while count < 10:
   print(f'Count: {count}')
   count += 1
+  
+  
+import itertools
+
+l1 = [1, 2, 3]
+l2 = [6, 7, 8, 20, 30, 40]
+
+for a, b in itertools.zip_longest(l1, l2):
+    print(a, b)
+
+
+for k, v in enumerate(car.items(), start=1):
+    print(k, v)
+
+
